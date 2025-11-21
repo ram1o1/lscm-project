@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Set page configuration
 st.set_page_config(
-    page_title="Comprehensive EDA Web App",
+    page_title="EDA",
     page_icon="📊",
     layout="wide"
 )
@@ -84,7 +84,7 @@ def display_visualization(df):
     Handles data visualization based on user selection.
     Uses a fixed height of 500px for consistency.
     """
-    st.header("Comprehensive Data Visualization")
+    st.header("Data Visualization")
     
     # Default plot height
     DEFAULT_HEIGHT = 500
@@ -235,9 +235,9 @@ def display_visualization(df):
 # --- Main App Logic ---
 
 def main():
-    st.title("📊 Comprehensive Data Visualization and EDA App")
+    st.title("📊 Data Visualization and Exploitary Data Analysis App")
     st.markdown("""
-    Welcome to the EDA Web App! Upload your dataset (CSV or Excel) to get started.
+    Welcome! Upload your dataset (CSV or Excel) to get started.
     This app provides a wide range of analytical and visualization tools for deep data exploration.
     """)
 
